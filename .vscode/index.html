@@ -2,7 +2,6 @@
 <html>
     <head> 
         <title>Audrey's Website!</title>
-        <!--CSS appearance code, not sure of placement-->
         <link rel = "stylesheet" 
         href = "style.css" >
             <style>
@@ -72,15 +71,21 @@
     </head>
     <body>
         <!--All content goes here-->
-        <div>
+        <div id = "all-contents">
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+             }
             <nav>
                 <h1>Audrey's Awesome Website</h1>
-                <ul>
-                    <li></li>
+                <ul id = "nav-ul">
+                    <li class = "nav-li">
                         <a href = "index.html"> Home </a>
-                    <li></li>
+                    <li>
+                    <li class = "nav-li">
                         <a href = "portfolio.html"> 
                         Portfolio</a>
+                    </li>
                 </ul>
             </nav>
 
